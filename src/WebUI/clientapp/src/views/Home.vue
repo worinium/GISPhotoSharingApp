@@ -50,3 +50,9 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+.home {
+    margin-top: 2%;
+}
+</style>

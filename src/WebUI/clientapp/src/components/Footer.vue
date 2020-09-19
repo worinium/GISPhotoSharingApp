@@ -4,7 +4,7 @@
 
     <div class="footer-left">
         <img src="http://placehold.it/150x50?text=Logo">
-        <h3>About<span>PhotoShoot GIS App</span></h3>
+        <h4>About <span>PhotoShoot GIS App</span></h4>
 
         <p class="footer-links">
             <a href="#">Home</a>
@@ -16,14 +16,15 @@
             <a href="#">Contact</a>
         </p>
 
-        <p class="footer-company-name">{{new Date().getFullYear()}} AbadiGIS Limited.</p>
     </div>
 
     <div class="footer-center">
         <div>
             <i class="fa fa-map-marker"></i>
-            <p><span>Port Harcourt, Rivers State</span>
-                Nigeria</p>
+            <p>
+                <span>Port Harcourt, Rivers State</span>
+                Nigeria
+            </p>
         </div>
 
         <div>
@@ -34,6 +35,7 @@
             <i class="fa fa-envelope"></i>
             <p><a href="mailto:alapherwori8g5@gmail.com">alapherwori8g5@gmail.com</a></p>
         </div>
+
     </div>
     <div class="footer-right">
         <p class="footer-company-about">
@@ -48,6 +50,13 @@
             <a href="#"><i class="fa fa-youtube"></i></a>
         </div>
     </div>
+    <div class="footer-center">
+        <marquee attribute_name="attribute_value">
+
+            <p id="copyright" class=" footer-company-name">&copy; {{new Date().getFullYear()}} AbadiGIS Limited. </p>
+        </marquee>
+
+    </div>
 </footer>
 </template>
 
@@ -61,7 +70,8 @@ export default {
 /* The footer is fixed to the bottom of the page */
 
 footer {
-    position: relative;
+
+    position: absolute;
     bottom: 0;
 }
 
@@ -76,13 +86,14 @@ footer {
 }
 
 .footer-distributed {
-    background-color: #292f2f;
+
+    background-color: #2a2f29;
     box-sizing: border-box;
     width: 100%;
-    text-align: left;
+    text-align: center;
     font: bold 16px sans-serif;
     padding: 50px 50px 60px 50px;
-    margin-top: 80px;
+    margin-top: 50px;
     color: #2c3e50;
 }
 
@@ -99,7 +110,7 @@ footer {
     width: 30%;
 }
 
-.footer-distributed h3 {
+.footer-distributed h4 {
     color: #ffffff;
     font: normal 36px 'Cookie', cursive;
     margin: 0;
@@ -167,6 +178,11 @@ footer {
     margin: 0;
 }
 
+#copyright {
+    color: #ffffff;
+    font-size: 26px;
+}
+
 .footer-distributed .footer-center p span {
     display: block;
     font-weight: normal;
@@ -177,7 +193,7 @@ footer {
 .footer-distributed .footer-center p a {
     color: #e0ac1c;
     text-decoration: none;
-    ;
+
 }
 
 /* Footer Right */
@@ -233,7 +249,7 @@ footer {
     .footer-distributed .footer-right {
         display: block;
         width: 100%;
-        margin-bottom: 40px;
+        margin-bottom: 10px;
         text-align: center;
     }
 
