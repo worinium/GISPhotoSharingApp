@@ -1,7 +1,7 @@
 <template>
 <div class="login container">
     <div class="card text-white bg-light navbar-light " style="max-width: 45rem; margin-top:5vh">
-        <div class="card-header" style="color:green">Sign Up </div>
+        <div class="card-header" style="color:green">Sign Up</div>
         <div class=" card-body">
             <form class="was-validated">
                 <div class="form-group">

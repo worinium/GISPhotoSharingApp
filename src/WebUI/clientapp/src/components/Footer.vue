@@ -93,7 +93,7 @@ footer {
     text-align: center;
     font: bold 16px sans-serif;
     padding: 50px 50px 60px 50px;
-    margin-top: 50px;
+    margin-top: 20px;
     color: #2c3e50;
 }
 
